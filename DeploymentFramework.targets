@@ -28,7 +28,7 @@
   </Target>
 
   <Target Name="BuildDocs" Condition="'$(NoBuildDocs)' == ''">
-    <Exec Command="&quot;\Program Files (x86)\IBE Software\HelpNDoc 6\Hnd6.exe&quot; docs\btdf-hnd\DeploymentFrameworkForBizTalkDocs.hnd build -x=&quot;Build PDF documentation&quot; -x=&quot;Build CHM documentation&quot;" />
+    <Exec Command="&quot;\Program Files\IBE Software\HelpNDoc 10\Hnd10.exe&quot; docs\btdf-hnd\DeploymentFrameworkForBizTalkDocs.hnd build -x=&quot;Build PDF documentation&quot; -x=&quot;Build CHM documentation&quot;" />
   </Target>
 
   <Target Name="BuildInstaller" DependsOnTargets="$(BuildInstallerDependsOn)">

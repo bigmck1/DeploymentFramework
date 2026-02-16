@@ -562,9 +562,6 @@
                     </Directory>
                 </Directory>
                 <Directory Id="dir78E22395068F4D3610482AD8CB9727A1" Name="TeamBuild">
-                    <Component Id="cmp4C3C1580938B8304AF476B449CCB58B0" Guid="{9112B684-AAC0-4730-BCE9-9BEDBF667498}">
-                        <File Id="fil21BB6028914EA3294C99B4FFC42A486B" KeyPath="yes" Source="..\Samples\TeamBuild\BTDFDefaultTemplate.xaml" />
-                    </Component>
                     <Component Id="cmpF0069F75434DCD04095FBFC1EC165A9C" Guid="{58EE8AE9-7A05-465C-B699-31D03262DBB6}">
                         <File Id="fil4C07E64EC9346B6703DBE1D845DD875D" KeyPath="yes" Source="..\Samples\TeamBuild\TFSBuild.proj" />
                     </Component>
@@ -724,7 +721,6 @@
             <ComponentRef Id="cmp8B3D3C67D0A0D52E4EE71DA9E4928770" />
             <ComponentRef Id="cmp981772FB9F4AC6F1712D296245488A55" />
             <ComponentRef Id="cmp8F0490A62428A79BD8C2971205F1B80D" />
-            <ComponentRef Id="cmp4C3C1580938B8304AF476B449CCB58B0" />
             <ComponentRef Id="cmpF0069F75434DCD04095FBFC1EC165A9C" />
         </ComponentGroup>
     </Fragment>

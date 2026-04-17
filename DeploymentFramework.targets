@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
     Deployment Framework for BizTalk
-    Copyright (C) 2008-15 Thomas F. Abraham, 2004-08 Scott Colestock
+    Copyright (C) 2008-26 Thomas F. Abraham, 2004-08 Scott Colestock
     
     This source file is subject to the Microsoft Public License (Ms-PL).
 -->
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" ToolsVersion="12.0">
   <PropertyGroup>
-    <Version>5_8_RC1</Version>
-    <InstallerVersion>5.8.95.0</InstallerVersion>
+    <Version>5_8</Version>
+    <InstallerVersion>5.8.100.0</InstallerVersion>
     <ProductID>018C4B8A-B453-49DD-91AD-3B20D0D1D428</ProductID>
   </PropertyGroup>
   

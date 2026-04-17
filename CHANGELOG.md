@@ -1,3 +1,9 @@
+### 5.8.100 [Release] (04/17/2026)
+
+- Revert ToolsVersion to 4.0 in MSBuild targets
+- Minor updates to documentation
+- Remove obsolete Team Build sample
+
 ### 5.8.95 [Release Candidate 1] (07/20/2020)
 
 - Add support for BizTalk 2020
